@@ -10,7 +10,8 @@ function NavBar() {
   };
   return (
     <>
-      <div className="fixed w-full bg- flex justify-between py-[30px] md:px-[10px] lg:px-[60px] px-[20px]  ">
+
+      <section className="fixed w-full bg-zinc-100 drop-shadow-xl flex justify-between py-[30px] md:px-[10px] lg:px-[60px] px-[20px]  ">
         <div className="w-[100px] md:w-[100px]">
           <img src={logo} alt="logo" />
         </div>
@@ -77,7 +78,7 @@ function NavBar() {
             </ul>
           ) : null}
         </div>
-      </div>
+      </section>
     </>
   );
 }
