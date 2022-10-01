@@ -3,45 +3,68 @@ import hero from "../../asstes/img/hero.svg";
 import security from "../../asstes/img/security.svg";
 import flexibility from "../../asstes/img/flexibility.svg";
 import collaboration from "../../asstes/img/colaboration.svg";
-import '../../index.css';
+import "../../index.css";
 
 function Hero() {
   return (
     <>
-      <section className="pt-[90px] w-full picture">
-        <div className="grid grid-cols-2 md:px-[150px] gap-2 py-[30px] bg-zinc-100">
-          <div className="pt-[80px]">
-            <div className="py-[40px]">
-              <h1 className="text-[50px] font-normal">Communiquer. </h1>
-              <span className="text-[50px] font-normal"> Collaborer. Créer.</span>
-              <p className="text-xl  py-5">
+      <section className="md:pt-[90px] pt-20 w-full picture">
+        <div className="lg:grid flex-col lg:grid-cols-2 mg:px-[60px] lg:px-[150px] lg:gap-2 py-[30px] bg-zinc-100">
+          <div className="lg:hidden grid justify-center">
+            <img className=" mt-8 h-[400px]" src={hero} alt="hero" />
+          </div>
+          <div className="lg:pt-[80px]">
+            <div className=" px-4 md:py-[40px]">
+              <h1 className="lg:text-[50px] text-center text-[40px] font-normal lg:text-left">
+                Communiquer. Collaborer. Créer.{" "}
+              </h1>
+              <span className="lg:text-[50px] text-[40px] lg:text-left font-normal">
+                {" "}
+              </span>
+              <p className="lg:text-xl lg:text-left text-center py-5">
                 Campy fournit un moyen efficace et puissant de gérer vos projets
               </p>
-              <button className=" my-4 bg-black h-12 w-28 border-black border-2 text-center text-white">
+              <button className="lg:my-4 bg-black lg:h-12 lg:w-28 border-black border-2 text-center text-white hidden lg:block">
                 Commencer
               </button>
             </div>
-            <div className="flex space-x-8 py-8">
-              <div className="flex space-x-2">
-                <img src={security}  alt="securite"/>
-                <span>Rapidité et sécurité</span>
-              </div>
-              <div className="flex space-x-2">
-                <img src={flexibility} alt="flexibilité"/>
+            <div className="lg:flex space-x-8 space-y-9   justify-items-center">
+              <div></div>
+              <div className="flex space-x-3 justify-center ">
+                <img
+                  src={flexibility}
+                  className="h-[30px] w-auto"
+                  alt="flexibilité"
+                />
                 <span>Flexibilité et évolutivité</span>
               </div>
-              <div className="flex space-x-2">
-                <img src={collaboration} alt="collaboration" />
+              <div className="flex space-x-3 justify-center ">
+                <img
+                  src={collaboration}
+                  className="h-[30px] w-auto"
+                  alt="collaboration"
+                />
                 <span>Meilleure collaboration</span>
               </div>
+              <div className="flex space-x-3 justify-center ">
+                <img
+                  src={security}
+                  className="h-[30px] w-auto"
+                  alt="collaboration"
+                />
+                <span>Sécurité , Maintenance</span>
+              </div>
+            </div>
+            <div className="relative mx-3 py-11 ">
+              <button className="lg:hidden rounded-lg my-4 w-full bg-black h-12  border-black border-2 text-center text-white ">
+                Commencer
+              </button>
             </div>
           </div>
-          <div>
+          <div className="hidden lg:flex">
             <img className="h-[600px]" src={hero} alt="hero" />
           </div>
-          
         </div>
-        
       </section>
     </>
   );
