@@ -10,8 +10,8 @@ function NavBar() {
   };
   return (
     <>
-      <div className="fixed w-full bg-slate-100 flex justify-between py-[30px] md:px-[200px] px-[20px]  ">
-        <div className="w-[100px] md:w-full">
+      <div className="fixed w-full bg-slate-50 flex justify-between py-[30px] md:px-[10px] lg:px-[60px] px-[20px]  ">
+        <div className="w-[100px] md:w-[100px]">
           <img src={logo} alt="logo" />
         </div>
         <div>
@@ -46,7 +46,7 @@ function NavBar() {
             <img src={menu} alt="menu" />
           </button>
           {sidebar ? (
-            <ul className="absolute bg-white top-0 left-0 w-full px-[20px] flex-col space-y-10 text-xl font-semibold">
+            <ul className="md:hidden absolute bg-white top-0 left-0 w-full px-[20px] flex-col space-y-10 text-xl font-semibold">
               <li className="py-6 flex justify-between">
                 <div className="flex space-x-4 ">
                   <svg
