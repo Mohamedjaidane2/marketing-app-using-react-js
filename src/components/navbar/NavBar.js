@@ -6,7 +6,7 @@ function NavBar() {
     <>
       <div className="fixed w-full bg-slate-100 flex justify-between py-[30px] px-[200px]  ">
         <div>
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div>
           <ul className="flex space-x-8 cursor-pointer">
