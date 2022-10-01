@@ -10,7 +10,7 @@ function NavBar() {
   };
   return (
     <>
-      <div className="fixed w-full bg-slate-50 flex justify-between py-[30px] md:px-[10px] lg:px-[60px] px-[20px]  ">
+      <div className="fixed w-full bg- flex justify-between py-[30px] md:px-[10px] lg:px-[60px] px-[20px]  ">
         <div className="w-[100px] md:w-[100px]">
           <img src={logo} alt="logo" />
         </div>
@@ -63,7 +63,12 @@ function NavBar() {
                   </svg>
                   <span>Connexion</span>
                 </div>
-                  <img src={xIcon} className='h-10' onClick={handleclick} alt="xIcon" />
+                <img
+                  src={xIcon}
+                  className="h-10"
+                  onClick={handleclick}
+                  alt="xIcon"
+                />
               </li>
               <li>Accueil</li>
               <li>Produit</li>
