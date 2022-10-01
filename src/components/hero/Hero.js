@@ -28,9 +28,9 @@ function Hero() {
                 Commencer
               </button>
             </div>
-            <div className="lg:flex space-x-8 space-y-9   justify-items-center">
-              <div></div>
-              <div className="flex space-x-3 justify-center ">
+            <div className="lg:flex  justify-items-center">
+              
+              <div className="flex space-x-3 pt-5 justify-center ">
                 <img
                   src={flexibility}
                   className="h-[30px] w-auto"
@@ -38,7 +38,7 @@ function Hero() {
                 />
                 <span>Flexibilité et évolutivité</span>
               </div>
-              <div className="flex space-x-3 justify-center ">
+              <div className="flex space-x-3 pt-5 justify-center ">
                 <img
                   src={collaboration}
                   className="h-[30px] w-auto"
@@ -46,7 +46,7 @@ function Hero() {
                 />
                 <span>Meilleure collaboration</span>
               </div>
-              <div className="flex space-x-3 justify-center ">
+              <div className="flex space-x-3 pt-5 justify-center ">
                 <img
                   src={security}
                   className="h-[30px] w-auto"
