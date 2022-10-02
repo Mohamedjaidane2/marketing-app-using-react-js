@@ -9,7 +9,7 @@ function Hero() {
   return (
     <>
       <section className="md:pt-[90px] pt-20 w-full picture">
-        <div className="lg:grid flex-col lg:grid-cols-2 mg:px-[60px] lg:px-[150px] lg:gap-2 py-[30px] bg-zinc-100">
+        <div className="lg:grid flex-col lg:grid-cols-2 mg:px-[60px] lg:px-[17%] lg:gap-2 py-[30px] bg-zinc-100">
           <div className="lg:hidden grid justify-center">
             <img className=" mt-8 h-[400px]" src={hero} alt="hero" />
           </div>
@@ -28,7 +28,7 @@ function Hero() {
                 Commencer
               </button>
             </div>
-            <div className="lg:flex  justify-items-center">
+            <div className="lg:flex lg:px-5  justify-items-center">
               
               <div className="flex space-x-3 pt-5 justify-center ">
                 <img
