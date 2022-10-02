@@ -55,7 +55,7 @@ function Hero() {
                 <span>Sécurité , Maintenance</span>
               </div>
             </div>
-            <div className="relative mx-3 py-11 ">
+            <div className=" mx-3 py-11 ">
               <button className="lg:hidden rounded-lg my-4 w-full bg-black h-12  border-black border-2 text-center text-white ">
                 Commencer
               </button>
