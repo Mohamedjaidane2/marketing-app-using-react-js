@@ -3,8 +3,8 @@ import React from "react";
 function Quotes() {
   return (
     <section className="bg-amber-400">
-      <div className=" items-center py-32 px-9 md:grid md:grid-cols-2 grid-flow-col md:gap-5">
-        <div className="text text-4xl  ">
+      <div className=" items-center py-32 px-[10%] md:grid md:grid-cols-2 grid-flow-col md:gap-5">
+        <div className="font-normal text-[40px] ">
           <p className="">Avec le bon logiciel, de grandes choses peuvent se produire</p>
         </div>
         <div className="text-l pt-9 md:pt-0">
