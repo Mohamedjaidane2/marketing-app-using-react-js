@@ -17,9 +17,9 @@ function Offer() {
         </p>
       </div>
       <div className="lg:grid place-items-center lg:grid-cols-4 lg:gap-5 grid grid-rows-4 items-center">
-        <div className="pic">
-          <img src={offer1} className="border-[3px] rounded-xl border-black " alt='offer' />
-          <p className="text-3xl font-semibold my-6 text-center lg:text-left">Flux de travail efficaces</p>
+        <div className="pic ">
+          <img src={offer1} className="border-[3px] rounded-xl border-black lg:h-auto w-auto " alt='offer' />
+          <p className="text-xl font-semibold my-6 text-center lg:text-left">Flux de travail efficaces</p>
           <p className="text-center lg:text-left">
             Paragraphe. Cliquez ici pour le modifier et ajouter votre propre
             texte. C'est l'espace idéal pour raconter une histoire et vous
@@ -27,9 +27,8 @@ function Offer() {
           </p>
         </div>
         <div className="pic lg:pb-0 pb-7">
-          <img src={offer2} className="border-[3px] rounded-xl border-black " alt='offer' />
-          <p className="text-3xl font-semibold mt-6 text-center lg:text-left">Solution</p>
-          <p className="text-3xl font-semibold mb-6  text-center lg:text-left">intégrale</p>
+          <img src={offer2} className="border-[3px] rounded-xl border-black lg:h-auto w-auto " alt='offer' />
+          <p className="text-xl font-semibold my-6 text-center lg:text-left">Solution intégrale</p>
           <p className="text-center lg:text-left">
             Paragraphe. Cliquez ici pour le modifier et ajouter votre propre
             texte. C'est l'espace idéal pour raconter une histoire et vous
@@ -37,8 +36,8 @@ function Offer() {
           </p>
         </div>
         <div className="pic lg:pb-0 pb-7">
-          <img src={offer3} className="border-[3px] rounded-xl border-black " alt='offer' />
-          <p className="text-3xl font-semibold my-6 text-center lg:text-left">Support client complet</p>
+          <img src={offer3} className="border-[3px] rounded-xl border-black lg:h-auto w-auto " alt='offer' />
+          <p className="text-xl font-semibold my-6 text-center lg:text-left">Support client complet</p>
           <p className="text-center lg:text-left">
             Paragraphe. Cliquez ici pour le modifier et ajouter votre propre
             texte. C'est l'espace idéal pour raconter une histoire et vous
@@ -46,8 +45,8 @@ function Offer() {
           </p>
         </div>
         <div className="pic lg:pb-0 pb-7">
-          <img src={offer4} className="border-[3px] rounded-xl border-black " alt='offer' />
-          <p className="text-3xl font-semibold my-6 text-center lg:text-left">Outils intelligents d'automatisation</p>
+          <img src={offer4} className="border-[3px] rounded-xl border-black lg:h-auto w-auto " alt='offer' />
+          <p className="text-xl font-semibold my-6 text-center lg:text-left">Outils intelligents </p>
           <p className="text-center lg:text-left">
             Paragraphe. Cliquez ici pour le modifier et ajouter votre propre
             texte. C'est l'espace idéal pour raconter une histoire et vous
