@@ -1,3 +1,4 @@
+import Construit from "./components/construit/Construit";
 import Hero from "./components/hero/Hero";
 import NavBar from "./components/navbar/NavBar";
 import Offer from "./components/Offer/Offer";
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <Quotes/>
     <Offer/>
+    <Construit/>
     </>
     
       
