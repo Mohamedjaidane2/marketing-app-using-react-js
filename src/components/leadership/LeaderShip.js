@@ -13,9 +13,7 @@ function LeaderShip() {
   return (
     <section className=" my-4 py-[60px] px-[17%] bg-pink-200">
       <div >
-        <ScrollEffect annimate='fadeIn'>
         <h1 className="lg:text-4xl text-2xl font-semibold text-left ">Leadership établi dans l'industrie</h1>
-        </ScrollEffect>
         <p className="py-[30px] leading-8 text-left text-sm lg:text-lg">
           Paragraphe. Vous pouvez le modifier et ajouter votre texte.
           Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter
