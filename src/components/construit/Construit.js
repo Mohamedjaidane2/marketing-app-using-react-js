@@ -3,13 +3,15 @@ import contruit from "../../asstes/img/construit.svg";
 import ct1 from "../../asstes/img/ct1.svg";
 import ct2 from "../../asstes/img/ct2.svg";
 import ct3 from "../../asstes/img/ct3.svg";
+import 'animate.css';
 
 function Construit() {
   return (
-    <section className="px-[15%] py-3 lg:py-[100px]">
+    
+    <section className="px-[15%] py-3 lg:py-[100px] ">
       <div className="grid lg:grid-cols-2 lg:gap-[6.5rem]">
         <div className="place-content-center">
-          <img className="h-auto lg:w-[500px] w-full pb-6 " src={contruit} alt="construit" />
+          <img className="h-auto lg:w-[500px] w-full pb-6 animate__animated animate__fadeIn" src={contruit} alt="construit" />
         </div>
         <div>
           <h1 className="lg:text-3xl text-2xl text-left leading-[30px]">Construit pour et par les créatifs</h1>
