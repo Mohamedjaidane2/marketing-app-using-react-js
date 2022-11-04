@@ -4,6 +4,8 @@ import LeaderShip from "./components/leadership/LeaderShip";
 import NavBar from "./components/navbar/NavBar";
 import Offer from "./components/Offer/Offer";
 import Quotes from "./components/quotes/Quotes";
+import React, { Component }  from 'react';
+
 
 function App() {
   return (

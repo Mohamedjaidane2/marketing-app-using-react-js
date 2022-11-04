@@ -1,6 +1,5 @@
 import React from "react";
 import 'animate.css';
-import ScrollEffect from "react-scroll-effects";
 import l1 from "../../asstes/img/l1.webp";
 import l2 from "../../asstes/img/l2.webp";
 import l3 from "../../asstes/img/l3.webp";
