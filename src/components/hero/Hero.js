@@ -14,23 +14,23 @@ function Hero() {
             <img className=" mt-8 h-[400px]" src={hero} alt="hero" />
           </div>
           <div className="lg:pt-[80px]">
-            <div className=" px-4 md:py-[40px]">
-              <h1 className="lg:text-[50px] text-center text-[40px] font-normal lg:text-left">
+            <div className=" px-7 md:py-[40px]">
+              <h1 className="lg:text-[50px] text-[40px] font-normal text-left">
                 Communiquer. Collaborer. Créer.{" "}
               </h1>
               <span className="lg:text-[50px] text-[40px] lg:text-left font-normal">
                 {" "}
               </span>
-              <p className="lg:text-xl lg:text-left text-center py-5">
+              <p className="lg:text-xl text-left py-5">
                 Campy fournit un moyen efficace et puissant de gérer vos projets
               </p>
               <button className="lg:my-4 bg-black lg:h-12 lg:w-28 border-black border-2 text-center text-white hidden lg:block">
                 Commencer
               </button>
             </div>
-            <div className="lg:flex lg:px-5  justify-items-center">
+            <div className="lg:flex lg:px-5 px-7  justify-items-center">
               
-              <div className="flex space-x-3 pt-5 justify-center ">
+              <div className="flex space-x-3 pt-5  ">
                 <img
                   src={flexibility}
                   className="h-[30px] w-auto"
@@ -38,7 +38,7 @@ function Hero() {
                 />
                 <span>Flexibilité et évolutivité</span>
               </div>
-              <div className="flex space-x-3 pt-5 justify-center ">
+              <div className="flex space-x-3 pt-5  ">
                 <img
                   src={collaboration}
                   className="h-[30px] w-auto"
@@ -46,7 +46,7 @@ function Hero() {
                 />
                 <span>Meilleure collaboration</span>
               </div>
-              <div className="flex space-x-3 pt-5 justify-center ">
+              <div className="flex space-x-3 pt-5 ">
                 <img
                   src={security}
                   className="h-[30px] w-auto"
