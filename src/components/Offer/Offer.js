@@ -3,7 +3,6 @@ import offer1 from "../../asstes/img/offer1.webp";
 import offer2 from "../../asstes/img/offer2.webp";
 import offer3 from "../../asstes/img/offer3.webp";
 import offer4 from "../../asstes/img/offer4.webp";
-import React, { Component }  from 'react';
 
 import "../../index.css";
 
